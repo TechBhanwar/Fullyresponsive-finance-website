@@ -1,0 +1,374 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden !important;
+}
+
+.navbar{
+    background-color: #124e66 !important
+}
+.logo{
+    width: 7%;
+}
+.nav-link{
+    color:white !important;
+    margin-left: 20px;
+}
+.sliderbox{
+    height: 500px;
+    margin-bottom: 20px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+height: 500px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+.textc{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.textc h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: black;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.textc h5{
+    margin-bottom: 40px;
+}
+.servicec .card-title{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+.cardi{
+    height: 230px;
+}
+.catc .card{
+    margin-bottom: 20px;
+}
+
+.overh{
+    font-size: 48px;
+    color: black;
+    font-family: "Hind", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    /* padding-top: 25px; */
+}
+.catogry{
+    width: 100%;
+    height: 200px;
+    background-color:#124e66;
+    margin-bottom: 40px;
+text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px 30px 15px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    justify-content: center;
+    transition: all 0.4s ease-in;
+}
+.catogry  h3{
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    display: block;
+    color: white;
+    font-family: "Hind", sans-serif;
+    margin-bottom: 8px;
+    transition: all 0.4s ease-in;
+}
+.catogry h3 span{
+    font-size: 14px;
+    margin-left: 25px;
+    font-weight: 100;
+}
+.catogry:hover{
+    background-color: #312a57;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+.catogry:hover h3{
+    color:#0C0E2B;
+}
+.imgeabouts{
+    width: 100%;
+    border-radius: 40px 0px 0px 40px;
+    height: 332px;
+    margin-bottom: 30px;
+}
+#aboutt{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.btnabout{
+    width: 23%;
+    height: 46px;
+    background-color: #0C0E2B;
+  color: white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.Abouttext{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+.titdiv{
+    width: 100%;
+    height: 45px;
+    background-color: #e6f4fa;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+
+}
+.ca{
+   padding: 0 !important;
+   padding-top: 10px !important;
+
+}
+.titdiv i{
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.projectptext{
+    color: black;
+}
+.event1{
+    padding: 20px;
+    box-shadow: 0px 0 20px 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    background: #0C0E2B !important;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    border-radius: 4px;
+    color: white !important;
+}
+.event1:hover{
+    background-color: #e6f4fa !important;
+    color: #0C0E2B !important;
+}
+.event1:hover .card-title{
+    color: #0C0E2B !important;
+}
+.event1:hover .card-body small {
+    color: #0C0E2B !important;
+}
+.event1 .card-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Hind", sans-serif;
+}
+.event1 .card-text small{
+    color: white !important;
+}
+.dimg{
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.comaa{
+    width: 10%;
+}
+.dtext{
+    text-align: end;
+    margin-top: 15px;
+    line-height: 34px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.dname{
+    text-align: end;
+    font-size: 30px;
+    margin-top: 9vh;
+}
+
+.dname p{
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+.footer4 h3{
+    font-size: 22px;
+    font-weight: 700;
+   color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .ftimg{
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  .footer_btm{
+    display: flex;
+    align-items: center;
+  
+  }
+  .iconft{
+    width: 78px;
+    height: 78px;
+    background-color: #5F2DED;
+  }
+  .iconft i{
+    margin: 24px 27px;
+    color: white;
+    font-size: 27px;
+  }
+  .footer_btm h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .footer_btm span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.63);
+    display: block;
+    margin-bottom: 7px;
+  
+  }
+  .ft-content{
+    margin-left: 27px;
+  }
+  .footer4 ul li{
+    list-style: none;
+  color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+    position: relative;
+    margin-left: -31px;
+    margin-top: 11px;
+    overflow: hidden;
+  }
+  .footer_bty{
+    display: flex;
+    align-items: center;
+  
+  }
+  .iconfty{
+    width: 61px;
+    height: 54px;
+    background-color: #5F2DED;
+  }
+  .footer4 ul{
+    text-align: center;
+    color: #000;
+  }
+  .footer4 ul li img{
+    width: 6%;
+    margin-top: 10%;
+    margin-top: 3%;
+    margin-left: 16px;
+  }
+  .footer4 ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* WhatsApp green color */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .whatsapp-button img {
+    width: 35px; /* Adjust size as needed */
+    /* height: 50px; */
+  }
+  
+  
+  .donation-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .qr-code {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .qr-code img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .donation-text {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .donation-text h2 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 11px;
+  }
+  
+  .donation-text p {
+    color: #555;
+    line-height: 39px;
+  }
+  
+  
+  /* gallery page css  */
+  .qrimg{
+    width: 25%;
+  }
+  .pop{
+    width: 58%;
+    height: 200px;
+    background-color: #f9f9f9;
+    position: fixed;
+    top: 28%;
+    left: 26%;
+    z-index: 999;
+    display: none;
+  }
+  
+  
